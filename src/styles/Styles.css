@@ -1,0 +1,36 @@
+
+.img-container{
+    width: 100%;
+    height: 614px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+
+.img-carousel{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.Toggle{
+    display: none;
+}
+
+.Responsive{
+
+    @media (max-width:766px) {
+        width: 100%;
+        height: 80%;
+    }
+
+
+}
+
+.img-responsive{
+    @media (max-width:766px) {
+        width: 100%;
+        height: 100%;
+    }
+}
